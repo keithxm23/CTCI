@@ -30,8 +30,8 @@ while(current != None):
 	current = current.next
 """
 
-
-while not(lessThanX is end):
+cur = head
+while not(cur is end):
 	if lessThanX.data > num:
 		if head == lessThanX:
 			print "head is ltx"
