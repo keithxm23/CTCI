@@ -1,6 +1,6 @@
 #stack
 
-class Stack():
+class Stack(object):
 	
 	def __init__(self):
 		self.top = None
@@ -26,10 +26,10 @@ class Stack():
 
 	def peek(self):
 		if self.top == None:
-			raise Exception("Stack empty")
+			return None
 		return self.top.data
 
-
+"""
 #Test
 s = Stack()
 #s.pop()
@@ -41,3 +41,4 @@ print s.peek()
 x = s.pop()
 print x.data
 print s.peek()
+"""
